@@ -16,3 +16,5 @@ datasets-rgb-pose-estimation/img-datasets/MN10-blender/bed/
 # Ignore specific file in img-datasets
 datasets-rgb-pose-estimation/img-datasets/MN10-blender/config.yml
 
+#Ignore venv
+myvenv/

@@ -1,0 +1,12 @@
+#pip install -r requirements.txt
+numpy
+spatialmath-python
+pyrender
+mitsuba
+scikit-image
+#yaml old version
+pyYAML #This is the new version 
+matplotlib
+opencv-python #this was missing from the pip install earlier
+#future #was also missing. related to osmesa
+#mako #was also missing. related to osmesa
