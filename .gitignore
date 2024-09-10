@@ -1,0 +1,18 @@
+# Ignore ModelNet10 and ModelNet10-norm-clean-ply
+datasets-rgb-pose-estimation/3d-datasets/ModelNet10/
+datasets-rgb-pose-estimation/3d-datasets/ModelNet10-norm-clean-ply/
+
+# Ignore assets folder
+datasets-rgb-pose-estimation/assets/
+
+# Ignore __pycache__ folders
+datasets-rgb-pose-estimation/configs/__pycache__/
+datasets-rgb-pose-estimation/configs-crop/__pycache__/
+datasets-rgb-pose-estimation/__pycache__/
+
+# Ignore specific subfolder in img-datasets
+datasets-rgb-pose-estimation/img-datasets/MN10-blender/bed/
+
+# Ignore specific file in img-datasets
+datasets-rgb-pose-estimation/img-datasets/MN10-blender/config.yml
+
