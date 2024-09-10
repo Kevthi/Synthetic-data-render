@@ -1,0 +1,9 @@
+#Change the x to the correct python version
+sudo apt install python3.x-pip
+sudo apt install python3.x-venv
+
+
+
+#Install blender system wide (use blender from blender.com)
+sudo tar -xvf blender-<version>-linux-x64.tar.xz -C /usr/local/
+sudo ln -s /usr/local/blender-<version>-linux-x64/blender /usr/local/bin/blender
