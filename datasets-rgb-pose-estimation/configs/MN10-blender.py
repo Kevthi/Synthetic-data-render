@@ -1,7 +1,9 @@
 import os
 from conf_helpers import *
 
+
 all_classes_modelnet10 = ["bed", "chair", "desk", "dresser", "monitor", "night_stand", "sofa", "table", "toilet"]
+
 
 def get_config():
 
@@ -18,15 +20,16 @@ def get_config():
             "num_sample_vertices": 1000,  # number of vertices sampled from the mesh
             "dataset_name": "ModelNet10-norm-clean-ply",
             "split":{
-                "train":25000,
-                "validation": 100,
-                "test": 100,
+                #"train":25000,  #Ola's numbers
+                "train":100, #Delete this when having the real computer
+                "validation": 50,#100, #It was 100
+                "test": 50 #100 #It was 100
             },
 
         },
         "real_render": {
              "name":"blender", # pyrender or mitsuba
-             "env_map_types": ["industrial-4k"], # list or constant
+             "env_map_types": ["industrial-4k", "industrial"], # list or constant  #It was only industrial-4k
              "exec_path":"/usr/local/bin/blender",
              "py_script_path":"blender-cache/script.py",
              "cache_dir":"blender-cache",

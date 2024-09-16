@@ -1,6 +1,6 @@
 dataset_name: ModelNet10-norm-clean-ply
-env_map_path: assets/hdri/industrial-4k/train/autoshop_01_4k.hdr
+env_map_path: assets/hdri/industrial/train/castle_zavelstein_cellar_1k.hdr
 mesh_class: bed
-mesh_filename: bed_0488.ply
+mesh_filename: bed_0267.ply
 train_or_test: train
-unix_mesh_path: ModelNet10-norm-clean-ply/bed/train/bed_0488.ply
+unix_mesh_path: ModelNet10-norm-clean-ply/bed/train/bed_0267.ply

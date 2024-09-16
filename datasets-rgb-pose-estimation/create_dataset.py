@@ -209,7 +209,9 @@ def create_dataset(config):
         process_class_dir(train_exs_p_class, "train", model3d_class_dir, train_class_dir, config)
 
         val_class_dir = os.path.join(img_ds_dir, modelnet_class, "validation")
-        process_class_dir(val_exs_p_class, "train", model3d_class_dir, val_class_dir, config)
+        #print(f"Creating validation directory: {val_class_dir}") #for debugging
+        process_class_dir(val_exs_p_class, "train", model3d_class_dir, val_class_dir, config) 
+
 
         test_class_dir = os.path.join(img_ds_dir, modelnet_class, "test")
         process_class_dir(test_exs_p_class, "test", model3d_class_dir, test_class_dir, config)
